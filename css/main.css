@@ -112,7 +112,7 @@ textarea {
 
 /* ---Rooms Hero Image--- */
 #rooms-hero {
-  background: url(../images/rooms-styles.png) no-repeat;
+  background: url(../images/rooms_styles.png) no-repeat;
   height: 210px;
 }
 
@@ -243,7 +243,7 @@ textarea {
 }
 
 #room-styles-hero-con {
-  background: url(../images/compare-rm-styles.png) no-repeat;
+  background: url(../images/compare_rm_styles.png) no-repeat;
   height: 195px;
 }
 
