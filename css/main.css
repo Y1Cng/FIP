@@ -1,0 +1,407 @@
+body {
+  color: #626262;
+  font-family: "Sanchez", "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.cr-red {
+  color: #9a2018;
+}
+
+/* General Stylings */
+
+/* ---Main Nav--- */
+
+#main-nav label img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+}
+
+#main-nav input,
+#burger-con {
+  display: none;
+}
+
+/* ~ sibling selector */
+
+#main-nav input:checked ~ #burger-con {
+  display: block;
+}
+
+#main-nav input:checked ~ label img {
+  transform: rotate(90deg);
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #626262;
+}
+
+#main-nav ul li {
+  border-bottom: 1px solid #efefef;
+}
+
+#main-nav ul li:first-child {
+  border-top: 1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+  margin-bottom: 40px;
+}
+
+#logo {
+  margin-bottom: 20px;
+  max-width: 382px;
+}
+
+/* ---Footer--- */
+
+#footer-hero {
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+#footer-privacy .line-separator {
+  margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+  font-size: 23px;
+}
+
+#footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 11px;
+}
+
+/* ---Stylings for the Rooms Page--- */
+
+/* ---Rooms Hero Image--- */
+#rooms-hero {
+  background: url(../images/rooms-styles.png) no-repeat;
+  height: 210px;
+}
+
+.book-now {
+  background-color: #9a2018;
+  color: #fff;
+  font-size: 16px;
+  transition: all 500ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: rgb(196, 28, 28);
+  border-radius: 10px;
+  transition: ease 0.5s;
+}
+
+#book-now-hero {
+  height: 67px;
+}
+
+#hero-heading-box {
+  align-self: end;
+}
+
+.hero-img-h2,
+.hero-img-h3 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.hero-img-h2 span,
+.hero-img-h3 span {
+  color: #9a2018;
+  font-size: 12px;
+}
+
+.line-separator {
+  margin-top: 20px;
+  border-top: solid 3px #cf6666;
+}
+
+.line-separator-short {
+  border-top: solid 2px #cf6666;
+  width: 110px;
+  margin: 5px 15px;
+}
+
+.line-separator-medium {
+  border-top: solid 2px #cf6666;
+  width: 280px;
+  margin: 5px 15px;
+}
+
+#room-summary {
+  margin-bottom: 10px;
+}
+
+#room-summary h3 {
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+#room-summary ul {
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 421px;
+}
+
+#room-summary li {
+  margin: 0px 10px;
+  width: 150px;
+  padding-bottom: 12px;
+}
+
+#room-summary h2 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  width: 280px;
+}
+
+/* Compare RM Styles */
+
+#room-type {
+  margin-top: 20px;
+}
+
+.room-flex-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.room-image img {
+  width: 183px;
+  height: 183px;
+  border-radius: 4px;
+}
+
+#room-info h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#room-info ul {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#room-info li {
+  margin-bottom: 8px;
+}
+
+#room-styles-hero-con {
+  background: url(../images/compare-rm-styles.png) no-repeat;
+  height: 195px;
+}
+
+#room-styles-heading-box {
+  align-self: end;
+}
+
+.room-styles-con h2 {
+  font-size: 14px;
+}
+
+.room-styles-con a {
+  color: #9A2018;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+#room-styles-bottom-nav {
+  background-color: #cf6666;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#room-styles-bottom-nav ol {
+  list-style-type: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+#room-styles-bottom-nav ol li {
+  display: inline;
+}
+
+#room-styles-bottom-nav ol li a {
+  padding: 5px;
+  color: #fff;
+}
+
+/* ---Stylings for the Spa Page--- */
+#spa-registered-massage{
+  background: url(../images/spa_registered_massage_therapy.png) no-repeat;
+  height: 210px;
+}
+
+#spa-hot-stones{
+  background: url(../images/spa_hot_stones.png) no-repeat;
+  height: 210px;
+}
+
+#spa-handfoot-treatments {
+  background: url(../images/spa_hand_foot_treatments.png) no-repeat;
+  height: 210px;
+}
+
+#spa-facials {
+  background: url(../images/spa_facials.png) no-repeat;
+  height: 210px;
+}
+
+#spa-waxing {
+  background: url(../images/spa_waxing.png) no-repeat;
+  height: 210px;
+}
+
+#spa-packages {
+  background: url(../images/spa_packages.png) no-repeat;
+  height: 210px;
+}
+
+#spa-policies {
+  background: url(../images/spa_policies.png) no-repeat;
+  height: 210px;
+}
+
+.spa-summary {
+  margin-bottom: 30px;
+}
+
+.spa-summary h2 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 2px;
+  padding: 10px 15px 2px 15px;
+}
+
+.spa-summary ul {
+  font-size: 14px;
+  padding: 0 15px 0 30px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+#spa-facials-summary li {
+  margin-bottom: 5px;
+}
+
+#spa-packages-summary li {
+  margin-bottom: 10px;
+}
+
+#spa-policies-summary li {
+  margin-bottom: 10px;
+}
+
+.spa-summary h3 {
+  font-size: 13px;
+  padding: 0 15px;
+}
+
+.spa-summary article {
+  font-size: 14px;
+  padding: 5px 15px 10px 30px;
+}
+
+.spa-hero-heading-box {
+  align-self: end;
+}
+
+/* spa highlights sections */
+#spa-highlights-section {
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.spa-highlights img {
+  width: 117px;
+  margin: 20px auto;
+  display: block;
+}
+
+.spa-highlights article {
+  margin: 15px auto;
+  font-size: 14px;
+  max-width: 180px;
+}
+
+.spa-highlights h2 {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.spa-highlights p {
+  font-size: 12px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.spa-highlights a {
+  font-size: 12px;
+  color: #9a2018;
+  text-decoration: underline;
+}
+
+.spa-highlights .highlight-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
