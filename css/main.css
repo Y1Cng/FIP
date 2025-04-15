@@ -354,7 +354,7 @@ textarea {
   padding: 0 15px;
 }
 
-.spa-summary article {
+.spa-summary p {
   font-size: 14px;
   padding: 5px 15px 10px 30px;
 }
@@ -398,6 +398,9 @@ textarea {
   font-size: 12px;
   color: #9a2018;
   text-decoration: underline;
+  font-weight: 100;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .spa-highlights .highlight-text {
