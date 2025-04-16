@@ -309,6 +309,7 @@ body {
   #footer-hero h3 {
     font-size: 16px;
     margin-bottom: 16px;
+    font-family: "cera-pro-regular", sans-serif;
   }
 
   #footer-nav {
@@ -367,6 +368,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    font-family: "cera-pro-regular", sans-serif;
   }
 
   #footer-button {
