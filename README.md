@@ -10,7 +10,7 @@
 
 - Students must create a simple CSS animation for a submit button on one of the pages
 
-- Students must implement show/hide functionality based on the hamburger menu or using the <details> and <summary> elements
+- Students must implement show/hide functionality based on the hamburger menu or using the "details" and "summary" elements
 - Students must use workflow practices as outlined in class - branches, pull requests, merges etc.
 
 - Include a well-written Readme file as part of your final submission.
