@@ -1,0 +1,149 @@
+body {
+  color: #626262;
+  font-family: "Sanchez", "cera-pro-regular", "Times New Roman", serif;
+}
+
+@font-face {
+  font-family: cera-pro-regular;
+  src: url(../fonts/cera-pro-regular.ttf);
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.cr-red {
+  color: #9a2018;
+}
+
+/* General Stylings */
+
+/* ---Main Nav--- */
+#about-main-nav label img {
+  width: 70px;
+  height: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+}
+
+#about-main-nav input,
+#burger-con {
+  display: none;
+}
+
+/* ~ sibling selector */
+
+#about-main-nav input:checked ~ #burger-con {
+  display: block;
+}
+
+#about-main-nav input:checked ~ label img {
+  transform: rotate(90deg);
+}
+
+#about-main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#about-main-nav ul li a {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #626262;
+}
+
+#about-main-nav ul li {
+  border-bottom: 1px solid #efefef;
+}
+
+#about-main-nav ul li:first-child {
+  border-top: 1px solid #efefef;
+}
+
+#about-main-nav ul li:last-child {
+  margin-bottom: 40px;
+}
+
+#about-main-nav input,
+#burger-con {
+  display: none;
+}
+
+#about-logo {
+  max-width: 259px;
+  display: flex;
+  align-items: center;
+}
+
+/* * ~ sibling selector * */
+#logo {
+  margin-bottom: 20px;
+  max-width: 382px;
+}
+
+/*  */
+.line-separator {
+  margin-top: 20px;
+  border-top: solid 3px #cf6666;
+}
+
+.line-separator-short {
+  border-top: solid 2px #cf6666;
+  width: 110px;
+  margin: 5px 15px;
+}
+
+.line-separator-medium {
+  border-top: solid 2px #cf6666;
+  width: 280px;
+  margin: 5px 15px;
+}
+
+/** ---Footer--- **/
+
+#footer-hero {
+  background-image: url(../images/cr-footer.png);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 16px;
+  font-family: "cera-pro-regular";
+}
+
+#footer-privacy .line-separator {
+  margin-top: 0px;
+}
+
+#footer-privacy p {
+  font-family: "cera-pro-regular", sans-serif;
+  margin-top: 20px;
+}
+
+#footer-contact-info h3 {
+  font-size: 23px;
+}
+
+#footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 11px;
+}
