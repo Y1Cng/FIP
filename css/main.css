@@ -104,13 +104,12 @@ textarea {
   margin-top: 20px;
 }
 
-
 #footer-contact-info h3 {
   font-size: 23px;
 }
 
 #footer-contact-info p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 18px;
   font-size: 11px;
 }
@@ -119,7 +118,7 @@ textarea {
 
 /* ---Rooms Hero Image--- */
 #rooms-hero {
-  background: url(../images/rooms-styles.png) no-repeat;
+  background: url(../images/rooms_styles.png) no-repeat;
   height: 210px;
 }
 
@@ -160,7 +159,7 @@ textarea {
 .hero-img-h3 span {
   color: #9a2018;
   font-size: 12px;
-  font-family: "cera-pro-regular", sans-serif;
+  font-family:  "cera-pro-regular", sans-serif;
 }
 
 .line-separator {
@@ -251,7 +250,7 @@ textarea {
 }
 
 #room-styles-hero-con {
-  background: url(../images/compare-rm-styles.png) no-repeat;
+  background: url(../images/compare_rm_styles.png) no-repeat;
   height: 195px;
 }
 
