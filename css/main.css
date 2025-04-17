@@ -1,6 +1,11 @@
 body {
   color: #626262;
-  font-family: "Sanchez","cera-pro-regular",  "Times New Roman", serif;
+  font-family: "Sanchez", "cera-pro-regular", "Times New Roman", serif;
+}
+
+@font-face {
+  font-family: cera-pro-regular;
+  src: url(../fonts/cera-pro-regular.ttf);
 }
 
 a {
@@ -159,7 +164,7 @@ textarea {
 .hero-img-h3 span {
   color: #9a2018;
   font-size: 12px;
-  font-family:  "cera-pro-regular", sans-serif;
+  font-family: "cera-pro-regular", sans-serif;
 }
 
 .line-separator {
@@ -263,7 +268,7 @@ textarea {
 }
 
 .room-styles-con a {
-  color: #9A2018;
+  color: #9a2018;
   font-size: 12px;
   text-decoration: underline;
 }
@@ -291,12 +296,12 @@ textarea {
 }
 
 /* ---Stylings for the Spa Page--- */
-#spa-registered-massage{
+#spa-registered-massage {
   background: url(../images/spa_registered_massage_therapy.png) no-repeat;
   height: 210px;
 }
 
-#spa-hot-stones{
+#spa-hot-stones {
   background: url(../images/spa_hot_stones.png) no-repeat;
   height: 210px;
 }
@@ -372,7 +377,7 @@ textarea {
 
 /* spa highlights sections */
 #spa-highlights-section {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   text-align: center;
   padding: 30px 0px;
 }
@@ -414,4 +419,3 @@ textarea {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
