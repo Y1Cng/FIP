@@ -377,9 +377,12 @@ textarea {
 
 /* spa highlights sections */
 #spa-highlights-section {
-  background-color: #f3f3f3;
   text-align: center;
   padding: 30px 0px;
+}
+
+#spa-highlights {
+  background-color: #f3f3f3;
 }
 
 .spa-highlights img {
