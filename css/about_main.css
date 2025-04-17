@@ -30,6 +30,7 @@ textarea {
 .line-separator {
   margin-top: 20px;
   border-top: solid 3px #cf6666;
+  padding-top: 20px;
 }
 
 .line-separator-short {
@@ -45,6 +46,44 @@ textarea {
 }
 
 /* ---Main Nav--- */
+#main-nav {
+  position: relative;
+}
+
+#main-nav input {
+  display: none;
+}
+
+#burger-con {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 250px;
+  background: white;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.1);
+  transform: translateX(100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#main-nav input:checked ~ #burger-con {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#main-nav ul li {
+  border-bottom: 1px solid #efefef;
+  padding: 0 15px;
+}
+
+#main-nav ul li a {
+  padding: 15px 0;
+}
+
 #main-nav label img {
   width: 70px;
   height: 20px;
@@ -54,37 +93,14 @@ textarea {
   margin-bottom: 20px;
 }
 
-#main-nav input,
-#burger-con {
-  display: none;
-}
-
-#main-nav input:checked ~ #burger-con {
-  display: block;
-  transform: translateX(0);
-  opacity: 1;
-  pointer-events: auto;
-}
-
-#main-nav input:checked ~ label img {
-  transform: rotate(90deg);
-}
-
 #main-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-#main-nav ul li a {
-  display: block;
-  padding: 10px 0 10px 0;
-  text-align: center;
-  color: #626262;
-}
-
-#main-nav ul li {
-  border-bottom: 1px solid #efefef;
+#main-nav input:checked ~ label img {
+  transform: rotate(90deg);
 }
 
 #main-nav ul li:first-child {
@@ -103,7 +119,7 @@ textarea {
 
 /* about-us */
 #hero {
-  background: url(../images/#) no-repeat;
+  background: url(../images/about_hero_image.png) no-repeat;
   height: 200px;
 }
 
@@ -111,6 +127,7 @@ textarea {
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 20px;
+  padding: 0px 9px;
 }
 
 .book-now {
@@ -134,6 +151,75 @@ textarea {
 }
 
 #hero-heading-box {
+  align-self: end;
+}
+
+.hero-img-h2, .hero-img-h3 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.hero-img-h2 span, .hero-img-h3 span {
+  color: #9a2018;
+  font-size: 12px;
+}
+
+/* press releases */
+#press-releases {
+  background: rgba(239, 239, 239, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#press-releases h2 {
+  grid-column: 1 / -1;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#press-releases-section {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 30px;
+}
+
+.press-releases-comment {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.press-releases-comment img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.press-releases-comment p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  flex: 1;
+}
+
+/* nature & activities */
+#nature-activities-hero {
+  background: url(../images/about_hero_image.png) no-repeat;
+  height: 200px;
+}
+
+#nature-activities-hero-summary p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  padding: 0px 9px;
+}
+
+#nature-activities-hero-heading-box {
   align-self: end;
 }
 
@@ -173,7 +259,6 @@ textarea {
 
 #footer-privacy p {
   font-family: "cera-pro-regular", sans-serif;
-  margin-top: 20px;
 }
 
 #footer-contact-info h3 {
