@@ -127,7 +127,7 @@ textarea {
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 20px;
-  padding: 0px 9px;
+  padding: 0px 26px;
 }
 
 .book-now {
@@ -177,6 +177,7 @@ textarea {
   font-size: 24px;
   margin-bottom: 10px;
   text-align: center;
+  font-size: 20px;
 }
 
 #press-releases-section {
@@ -216,7 +217,7 @@ textarea {
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 20px;
-  padding: 0px 9px;
+  padding: 0px 26px;
 }
 
 #nature-activities-hero-heading-box {
